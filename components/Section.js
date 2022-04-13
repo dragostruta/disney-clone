@@ -9,7 +9,9 @@ const Section = ({ genre, videos }) => {
         {videos.map((video) => {
           return (
             <Link key={video.id} href={`/video/${video.slug}`}>
-              <Card thumbnail={video.thumbnail} />
+              <a className="card-link">
+                <Card thumbnail={video.thumbnail} />
+              </a>
             </Link>
           );
         })}

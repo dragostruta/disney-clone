@@ -78,7 +78,7 @@ const Home = ({ videos, account }) => {
             alt={randomVideo(videos).title}
           />
         </div>
-        <div className="video-feed">
+        <div>
           <Section
             genre={"Recommended for you"}
             videos={unSeenVideos(videos)}

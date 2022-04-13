@@ -51,8 +51,16 @@ a {
 }
 
 .card {
+  width: 100%;
+  height: 80%;
+  border-radius: 5%;
+  margin: 5px;
+  filter: drop-shadow(5px 5px 10px #000);
+}
+
+.card-link {
   width: 20%;
-  height: auto;
+  max-height: auto;
   border-radius: 5%;
   margin: 5px;
   filter: drop-shadow(5px 5px 10px #000);
@@ -76,4 +84,12 @@ a {
   height: 50px;
   border-radius: 50%;
   margin-left: 10px;
+}
+
+.video-feed {
+  display: flex;
+}
+
+.logo-wrapper {
+  padding: 10px 30px;
 }
